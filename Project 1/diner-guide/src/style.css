@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Qwitcher+Grypen:wght@700&family=Source+Sans+Pro:wght@400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar, .main {
+    background-color: white;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.header h1 {
+    font-family: 'Qwitcher Grypen';
+    font-size: 60pt;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.sidebar {
+    padding: 10px 0 0 10px;
+    width: 400px;
+    float: left;
+}
+
+#search-input {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.main {
+    height: 100vh;
+}
+
+#restaurant-info {
+    padding: 0 20px; 
+    font-family: 'Source Sans Pro';
+}
+
+#restaurant-info h2 {
+    font-family: 'Playfair Display';
+    font-size:30pt;
+    margin: 20px 0 20px 0;
+}
+
+#restaurant-info p {
+    max-width: 1000px;
+}
+
+.address-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: italic;
+}
+
+.address-row img {
+    margin: 0 15px 0 30px;
+}
+
+.clickable {
+    cursor: pointer;
+}

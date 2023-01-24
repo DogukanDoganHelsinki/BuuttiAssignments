@@ -1,0 +1,15 @@
+.App {
+    text-align: center;
+}
+
+.number {
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: yellow;
+    color: black;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 8px auto;
+    text-align: center;
+}

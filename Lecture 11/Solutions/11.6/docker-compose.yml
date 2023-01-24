@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  service1:
+    container_name: 'service1-container'
+    image: service1-image
+    build: ./service1
+    ports:
+      - "3001:3001"
+  service2:
+    container_name: 'service2-container'
+    image: service2-image
+    build: ./service2
+    ports:
+      - "3002:3002"
+    depends_on:
+      - service1

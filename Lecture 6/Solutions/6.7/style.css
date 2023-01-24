@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#board {
+    display: inline-grid;
+}
+
+.piece {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60pt;
+}
+
+p {
+    font-size: 30pt;
+}

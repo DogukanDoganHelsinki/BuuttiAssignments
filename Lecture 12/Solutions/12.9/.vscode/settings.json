@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/8fe94204-854a-40f8-8c97-045aa58e232d/AppServices/subscriptions/8fe94204-854a-40f8-8c97-045aa58e232d/resourceGroups/buutti-js-cloud/providers/Microsoft.Web/sites/jsc-random-api-1",
+    "appService.deploySubpath": "."
+}

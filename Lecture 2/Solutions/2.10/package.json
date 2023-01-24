@@ -1,0 +1,16 @@
+{
+  "name": "1.9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "student-grades.js",
+  "scripts": {
+    "start": "node student-grades.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  }
+}

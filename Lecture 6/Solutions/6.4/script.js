@@ -1,0 +1,11 @@
+const p = document.querySelector('p')
+const div = document.createElement('div')
+div.innerHTML = p.innerHTML
+    .split(' ')
+    .map(word => word.length > 6 ? `<span class="yellow">${word}</span>` : word)
+    .join(' ')
+    .split('. ')
+    .map(sentence => `<p>${sentence}.</p>`)
+    .join('')
+document.querySelector('body').appendChild(div)
+p.remove()

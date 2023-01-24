@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Flexbox exercise</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- first row uses bootstrap flex container -->
+        <div class="row1 d-flex justify-content-around">
+            <div>one</div>
+            <div>two</div>
+            <div>three</div>
+            <div>four</div>
+            <div>five</div>
+        </div>
+        <!-- bootstrap does not have a flex-grow-2, so we use regular 12-column bootstrap layout for the second row -->
+        <div class="row2 row">
+            <div class="col">six</div>
+            <div class="col-4">seven</div>
+            <div class="col">eight</div>
+            <div class="col">nine</div>
+            <div class="col">ten</div>
+        </div>
+    </div>
+</body>
+
+</html>

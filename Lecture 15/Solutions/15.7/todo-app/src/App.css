@@ -1,0 +1,15 @@
+.done {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    margin-left: 5px;
+    cursor: pointer;
+}

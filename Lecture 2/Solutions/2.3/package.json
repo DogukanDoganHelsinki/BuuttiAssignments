@@ -1,0 +1,16 @@
+{
+  "name": "1.7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "working-with-arrays.js",
+  "scripts": {
+    "start": "node working-with-arrays.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  }
+}

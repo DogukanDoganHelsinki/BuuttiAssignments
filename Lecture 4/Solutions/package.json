@@ -1,0 +1,16 @@
+{
+    "name": "solutions",
+    "version": "1.0.0",
+    "description": "Solutions to Lecture 4 Assignments",
+    "type": "module",
+    "scripts": {
+      "lint": "eslint ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "eslint": "^8.23.1"
+    }
+  }
+  

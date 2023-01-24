@@ -1,0 +1,5 @@
+- Go through the steps in the previous exercise, including exiting
+- Check container id: ```docker ps -a```
+- Commit the changes: ```docker commit <container-id>```
+- Check your locally stored images: ```docker images``` and a new one with no name should be there. Check the id
+- Run the image: ```docker run -it <image-id>```

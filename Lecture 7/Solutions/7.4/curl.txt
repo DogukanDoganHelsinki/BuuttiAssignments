@@ -1,0 +1,8 @@
+curl --request GET \
+  --url https://cataas.com/cat
+
+curl --request GET \
+  --url https://cataas.com/cat/says/I%20can%20haz%20JavaScript
+
+curl --request GET \
+  --url 'https://cataas.com/api/cats?limit=20'

@@ -1,0 +1,1 @@
+Use https://azure.microsoft.com/en-us/global-infrastructure/services/

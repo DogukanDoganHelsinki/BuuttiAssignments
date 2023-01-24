@@ -1,0 +1,1 @@
+As you noticed, the page never reloads itself as a whole. Some individual components (most likely the map itself) can show loading symbols at times, but the rest of the site is still interactable during this. Network tab illustrates how much data traffic is still going on behind the scenes, even during quiet moments when nothing appears to be changing for the user.

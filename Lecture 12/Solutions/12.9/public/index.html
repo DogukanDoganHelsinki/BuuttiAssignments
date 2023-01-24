@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random API</title>
+</head>
+
+<body>
+    <h1>Random API 2</h1>
+
+    <p>
+    <pre>GET /random</pre> Accepts query parameters
+    <ul>
+        <li>min (number): minimum value (inclusive). Default 0.</li>
+        <li>max (number): maximum value (exclusive). Default 100.</li>
+        <li>float (boolean): if set to true, a decimal number is provided. Default false.</li>
+    </ul>
+    Example:<br />
+    <pre>/random?min=-100&float=true</pre>
+    Returns a decimal number between -100 (inclusive) and 100 (exclusive)
+    </p>
+
+</body>
+
+</html>

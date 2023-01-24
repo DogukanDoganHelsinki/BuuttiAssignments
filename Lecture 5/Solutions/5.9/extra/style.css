@@ -1,0 +1,13 @@
+.row1 > div, .row2 > div {
+    border: 1px solid black;
+    height: 100px;
+}
+
+.row1 > div {
+    background-color: lawngreen;
+    width: 100px;
+}
+
+.row2 > div {
+    background-color: red;
+}

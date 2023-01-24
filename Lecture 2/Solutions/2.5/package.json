@@ -1,0 +1,16 @@
+{
+  "name": "1.9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum-of-ints.js",
+  "scripts": {
+    "start": "node sum-of-ints.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  }
+}

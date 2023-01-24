@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid: 100px 400px / 1fr 1fr;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#top {
+    grid-column: 1 / span 2;
+    background-color: red;
+}
+
+#left {
+    background-color: green;
+}
+
+#right {
+    background-color: blue;
+}
+
+#top:hover, #left:hover, #right:hover {
+    background-color: yellow;
+}

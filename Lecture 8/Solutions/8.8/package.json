@@ -1,0 +1,16 @@
+{
+  "name": "8.8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "converter.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}

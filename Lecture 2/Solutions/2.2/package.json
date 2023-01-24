@@ -1,0 +1,17 @@
+{
+  "name": "1.6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "adding-a-rule.js",
+  "type": "module",
+  "scripts": {
+    "start": "node adding-a-rule.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  }
+}

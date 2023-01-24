@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.row1 div, .row2 div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.row1, .row2 {
+    width: 100%;
+    display: flex;
+}
+
+.row1 {
+  justify-content: space-around;
+}
+
+.row1 div {
+    background-color: lawngreen;
+}
+
+.row2 div {
+    background-color: red;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+#box7 {
+    flex-grow: 2;
+}

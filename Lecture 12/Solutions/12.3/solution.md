@@ -1,0 +1,12 @@
+- Create VM as per lecture instructions
+- Download the **.pem** file
+- Connect ```ssh -i <keyfile.pem> <username>@<vm-public-ip>```
+    - When you get *Unprotected private key file* error
+        - keyfile properties -> Security -> Advanced
+        - Disable inheritance -> Remove app inherited permissions from this object
+        - Add -> Select a principal -> Enter existing user -> Check names -> OK
+        - Leave Read + Read & Execute
+        - OK -> OK -> OK
+- Snoop around, then ```exit```
+- Remove **all** the resources related to the VM
+    - Azure -> Resource Group -> Select resources & Delete -> Type *yes* & click *confirm*

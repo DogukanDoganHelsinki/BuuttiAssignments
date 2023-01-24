@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BAC</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>BAC</h1>
+        <form id="form">
+            <div class="item">
+                <label>Gender: </label>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male" required />
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female" />
+            </div>
+            <div class="item">
+                <label for="weight">Weight (kg): </label>
+                <input type="number" id="weight" required />
+            </div>
+            <div class="item">
+                <label for="time">Time since first drink (h): </label>
+                <input type="number" id="time" required />
+            </div>
+            <div class="item">
+                <label for="size">Drink size: </label>
+                <select id="size">
+                    <option value="40" selected="selected">40ml</option>
+                    <option value="80">80ml</option>
+                    <option value="330">330ml</option>
+                    <option value="500">500ml</option>
+                    <option value="750">750ml</option>
+                </select>
+            </div>
+            <div class="item">
+                <label for="ABV">Alcohol by volume (%): </label>
+                <input type="number" step="any" id="ABV" required />
+            </div>
+            <div class="item">
+                <label for="doses">Doses (pcs): </label>
+                <input id="doses" type="number" required />
+            </div>
+            <button type="submit" id="submit">Submit</button>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+    </div>
+    <div class="container">
+        <div id="result">Not calculated</div>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+
+</html>

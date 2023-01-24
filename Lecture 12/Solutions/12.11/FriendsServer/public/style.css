@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+tr {
+    margin: 2px;
+}
+
+td {
+    border: 1px solid darkgray;
+    min-width: 10em;
+    padding: 3px;
+}
+
+thead {
+    background-color: aqua;
+}

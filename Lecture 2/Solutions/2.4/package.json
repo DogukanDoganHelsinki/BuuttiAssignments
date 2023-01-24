@@ -1,0 +1,16 @@
+{
+  "name": "1.8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "using-the-for-loop.js",
+  "scripts": {
+    "start": "node using-the-for-loop.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  }
+}

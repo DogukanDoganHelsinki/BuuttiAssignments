@@ -1,0 +1,4 @@
+- Build a service 1 that provides an endpoint
+- Build a service 2 that provides an endpoint that uses the service 1 endpoint
+- Make sure you can build both services individually and run the combination manually
+- Run them using docker-compose

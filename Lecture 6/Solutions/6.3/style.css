@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+#game {
+    display: inline-grid;
+    border: 1px solid black;
+}
+
+.square {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    margin: 10px;
+}

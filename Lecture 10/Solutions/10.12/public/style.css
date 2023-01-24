@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18pt;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+	transition: transform 1.0s ease-in-out;
+}
+
+ul {
+    margin-top: 30px;
+}

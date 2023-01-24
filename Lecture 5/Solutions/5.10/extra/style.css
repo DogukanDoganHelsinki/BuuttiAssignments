@@ -1,0 +1,16 @@
+.green {
+    background-color: lawngreen;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.large {
+    height: 250px;
+}

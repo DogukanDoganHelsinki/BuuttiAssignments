@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.done {
+    color:gray;
+    text-decoration: line-through;
+}
+
+button {
+    margin: 10px;
+}
+
+li {
+    cursor: pointer;
+}
